@@ -147,6 +147,30 @@
   <div data-component="components/footer.html"></div>
 
   <!-- Main JavaScript -->
-  <script src="js/main.js"></script>
+  <script src="js/main-clean.js"></script>
+
+  <!-- JSON-LD Structured Data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Professional Tools Collection - Tools Park",
+    "description": "Browse our comprehensive collection of 23+ professional tools for productivity, development, and daily tasks.",
+    "url": "https://toolspark.store/tools.html",
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": "23",
+      "itemListElement": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Text Case Converter",
+          "description": "Convert text to uppercase, lowercase, title case, and more",
+          "applicationCategory": "Utility",
+          "operatingSystem": "Web Browser"
+        }
+      ]
+    }
+  }
+  </script>
 </body>
 </html>
