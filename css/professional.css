@@ -1685,6 +1685,25 @@ body {
   font-size: var(--text-sm);
 }
 
+/* Inline SVG Icon Styles */
+.inline-block {
+  display: inline-block;
+}
+
+.w-4 { width: 1rem; }
+.h-4 { height: 1rem; }
+.w-5 { width: 1.25rem; }
+.h-5 { height: 1.25rem; }
+.w-6 { width: 1.5rem; }
+.h-6 { height: 1.5rem; }
+.w-8 { width: 2rem; }
+.h-8 { height: 2rem; }
+.w-10 { width: 2.5rem; }
+.h-10 { height: 2.5rem; }
+
+.mr-2 { margin-right: 0.5rem; }
+.mr-3 { margin-right: 0.75rem; }
+
 /* ===================================
    AMAZING HEADER & FOOTER STYLES
    =================================== */
