@@ -1685,6 +1685,44 @@ body {
   font-size: var(--text-sm);
 }
 
+/* Testimonials Section */
+.text-yellow-500 { color: #eab308; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.font-semibold { font-weight: 600; }
+.text-sm { font-size: 0.875rem; }
+.text-gray-500 { color: #6b7280; }
+
+/* Performance Enhancements */
+.hero-card {
+  will-change: transform;
+}
+
+.feature-card:hover {
+  will-change: transform;
+}
+
+/* Smooth Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.feature-card:nth-child(2) { animation-delay: 0.1s; }
+.feature-card:nth-child(3) { animation-delay: 0.2s; }
+.feature-card:nth-child(4) { animation-delay: 0.3s; }
+.feature-card:nth-child(5) { animation-delay: 0.4s; }
+.feature-card:nth-child(6) { animation-delay: 0.5s; }
+
 /* Inline SVG Icon Styles */
 .inline-block {
   display: inline-block;
